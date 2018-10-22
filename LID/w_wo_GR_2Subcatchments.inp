@@ -26,7 +26,6 @@ REPORT_STEP          00:15:00
 WET_STEP             00:05:00
 DRY_STEP             00:05:00
 ROUTING_STEP         0:00:30 
-RULE_STEP            00:00:00
 
 INERTIAL_DAMPING     PARTIAL
 NORMAL_FLOW_LIMITED  BOTH
@@ -43,7 +42,6 @@ THREADS              1
 
 [FILES]
 ;;Interfacing Files
-SAVE Outflows/Calibration "D:\SWMMandSoftware\SWMM5.013_June2018\EPASWMM5.1.013\Swmm5.1.013UpdateTests\OWA_EXAMPLES\Example5.txt"
 
 [EVAPORATION]
 ;;Data Source    Parameters
@@ -77,15 +75,15 @@ woGR             1.2        0.1        2          7          0
 [LID_CONTROLS]
 ;;Name           Type/Layer Parameters
 ;;-------------- ---------- ----------
-RG               RG
-RG               SURFACE    6          .25        0.1        1.0        5         
-RG               SOIL       12         0.5        0.2        0.1        0.5        10.0       3.5       
-RG               STORAGE    0          0.75       0.5        0         
+GR               GR
+GR               SURFACE    6          .25        0.1        1.0        5         
+GR               SOIL       12         0.5        0.2        0.1        0.5        10.0       3.5       
+GR               DRAINMAT   3          0.5        0.1       
 
 [LID_USAGE]
-;;Subcatchment   LID Process      Number  Area       Width      InitSat    FromImp    ToPerv     RptFile                  DrainTo          FromPerv  
-;;-------------- ---------------- ------- ---------- ---------- ---------- ---------- ---------- ------------------------ ---------------- ----------
-wGR              RG               100     50         10         0          25         1          *                        *                0               
+;;Subcatchment   LID Process      Number  Area       Width      InitSat    FromImp    ToPerv     RptFile                  DrainTo         
+;;-------------- ---------------- ------- ---------- ---------- ---------- ---------- ---------- ------------------------ ----------------
+wGR              GR               100     50         10         0          25         1         
 
 [OUTFALLS]
 ;;Name           Elevation  Type       Stage Data       Gated    Route To        

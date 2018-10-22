@@ -26,7 +26,6 @@ REPORT_STEP          00:15:00
 WET_STEP             00:05:00
 DRY_STEP             00:05:00
 ROUTING_STEP         0:00:30 
-RULE_STEP            00:00:00
 
 INERTIAL_DAMPING     PARTIAL
 NORMAL_FLOW_LIMITED  BOTH
@@ -43,7 +42,6 @@ THREADS              1
 
 [FILES]
 ;;Interfacing Files
-SAVE Outflows/Calibration "D:\SWMMandSoftware\SWMM5.013_June2018\EPASWMM5.1.013\Swmm5.1.013UpdateTests\OWA_EXAMPLES\Example5.txt"
 
 [EVAPORATION]
 ;;Data Source    Parameters
@@ -81,9 +79,9 @@ SWALE            VS
 SWALE            SURFACE    12         .25        0.1        1.0        1         
 
 [LID_USAGE]
-;;Subcatchment   LID Process      Number  Area       Width      InitSat    FromImp    ToPerv     RptFile                  DrainTo          FromPerv  
-;;-------------- ---------------- ------- ---------- ---------- ---------- ---------- ---------- ------------------------ ---------------- ----------
-wSWALE           SWALE            10      500        100        0          25         1          *                        *                0               
+;;Subcatchment   LID Process      Number  Area       Width      InitSat    FromImp    ToPerv     RptFile                  DrainTo         
+;;-------------- ---------------- ------- ---------- ---------- ---------- ---------- ---------- ------------------------ ----------------
+wSWALE           SWALE            10      500        100        0          25         1         
 
 [OUTFALLS]
 ;;Name           Elevation  Type       Stage Data       Gated    Route To        

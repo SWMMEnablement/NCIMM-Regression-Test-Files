@@ -14,7 +14,7 @@
 * OWA_USER           v13 and v12 inp test files
 * Pumps              v13 and v12 inp test files
 * SWMM5_NCIMM        v13 and v12 inp test files
-* v12
-* v13
+* v12                v13 and v12 log comparison files
+* v13                v13 and v12 log comparison files
 * Weirs              v13 and v12 inp test files
 * XPSWMM             v13 and v12 inp test files  

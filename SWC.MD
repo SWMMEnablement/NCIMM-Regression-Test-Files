@@ -1,4 +1,4 @@
-Note:  This is a Markdown experiment using EPA Documents and other documents that were originally PDF files, converted to DOCX files and then converted to Markdown HTML code.
+<strong>Note:  This is a Markdown experiment using EPA Documents and other documents that were originally PDF files, converted to DOCX files and then converted to Markdown HTML code.</strong>
 
 ![](media/3091a7dd5b70a184db454fd5560f4bdb.png)
 
@@ -202,13 +202,10 @@ LIST OF FIGURES
 
 > Figure 35. Locations with computed evaporation rates (Alaska and Hawaii not
 > shown) 68
+<blockquote>Figure 36. CMIP3 2060 projected changes in temperature and precipitation for
+> Omaha, NE (EPA, 2012).</blockquote>
+[gallery ids="19538,19539,19540,19541,19542,19543,19544,19545,19546,19547,19548,19549,19550,19551,19552,19553,19554,19555,19556,19557,19558,19559,19560,19561,19562,19563,19564,19565,19566,19567,19568,19569,19570,19571,19572,19573,19574,19575,19576,19577,19578,19579,19580,19581,19582,19583,19584" type="rectangular"]
 
-Figure 36. CMIP3 2060 projected changes in temperature and precipitation for
-> Omaha, NE (EPA, 2012).
-
- 
-
- 
 > ....................................................................................................................................................................
 > 70
 

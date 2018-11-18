@@ -28,7 +28,6 @@ REPORT_STEP          00:01:00
 WET_STEP             00:05:00
 DRY_STEP             00:05:00
 ROUTING_STEP         0:00:01 
-RULE_STEP            00:00:00
 
 INERTIAL_DAMPING     NONE
 NORMAL_FLOW_LIMITED  FROUDE
@@ -42,11 +41,9 @@ SYS_FLOW_TOL         5
 LAT_FLOW_TOL         5
 MINIMUM_STEP         0
 THREADS              1
-CROWN_CUTOFF         100
 
 [FILES]
 ;;Interfacing Files
-SAVE Outflows/Calibration "PhantomStorage.inp.CD"
 
 [EVAPORATION]
 ;;Data Source    Parameters

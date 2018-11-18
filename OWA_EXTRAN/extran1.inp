@@ -31,17 +31,13 @@ NORMAL_FLOW_LIMITED  BOTH
 FORCE_MAIN_EQUATION  D-W
 VARIABLE_STEP        0.00
 LENGTHENING_STEP     0
-MIN_SURFAREA         0
-MAX_TRIALS           0
-HEAD_TOLERANCE       0
+MIN_SURFAREA         12.557
+MAX_TRIALS           8
+HEAD_TOLERANCE       0.005
 SYS_FLOW_TOL         5
 LAT_FLOW_TOL         5
 MINIMUM_STEP         0.5
 THREADS              1
-
-[FILES]
-;;Interfacing Files
-SAVE Outflows/Calibration "Extran1.txt"
 
 [EVAPORATION]
 ;;Data Source    Parameters
@@ -123,8 +119,6 @@ DRY_ONLY         NO
 
 [REPORT]
 ;;Reporting Options
-INPUT      NO
-CONTROLS   NO
 SUBCATCHMENTS ALL
 NODES ALL
 LINKS ALL

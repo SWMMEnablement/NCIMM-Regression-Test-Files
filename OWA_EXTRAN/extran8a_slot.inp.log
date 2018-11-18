@@ -1,0 +1,115 @@
+
+
+*********************************************
+* Binary File Comparison Statistics Section *
+*********************************************
+
+   Flog.file                                                D:\SWMMandSoftware\SWMM5.013_June2018\EPASWMM5.1.013\Swmm5.1.013UpdateTests\OWA_EXTRAN\extran8a_slot.inp.log
+   FoutCompare.file                                         D:\SWMMandSoftware\SWMM5.013_June2018\EPASWMM5.1.013\Swmm5.1.013UpdateTests\v12\extran8a.out
+   Fout.file                                                D:\SWMMandSoftware\SWMM5.013_June2018\EPASWMM5.1.013\Swmm5.1.013UpdateTests\v13\extran8a_slot.out
+
+   Fout.file Version                                        51013
+   Fout.file MagicNumber                                    516114522
+   Fout.file Flow units                                     0
+   Fout.file Report Step                                    900
+   Fout.file Nperiods                                       3
+   Fout.file Starting file position of ID names             28
+   Fout.file Starting file position of input data           199
+   Fout.file Starting file position of output data          711
+   Fout.file number of bytes per time period                488
+   Fout.file Number of subcatchment output variables        8
+   Fout.file Number of node output variables                6
+   Fout.file Number of link output variables                5
+   Fout.file Number of subcatchments reported on            0
+   Fout.file Number of nodes reported on                    10
+   Fout.file Number of links reported on                    9
+   Fout.file Number of pollutants reported on               0
+
+   FoutCompare.file Version                                 51011
+   FoutCompare.file MagicNumber                             516114522
+   FoutCompare.file Flow units                              0
+   FoutCompare.file Nperiods                                3
+   FoutCompare.file Starting file position of ID names      28
+   FoutCompare.file Starting file position of input data    199
+   FoutCompare.file Starting file position of output data   711
+   FoutCompare.file number of bytes per time period         488
+   FoutCompare.file Number of subcatchment output variables 8
+   FoutCompare.file Number of node output variables         6
+   FoutCompare.file Number of link output variables         5
+   FoutCompare.file Number of subcatchments reported on     0
+   FoutCompare.file Number of nodes reported on             10
+   FoutCompare.file Number of links reported on             9
+   FoutCompare.file Number of pollutants reported on        0
+
+************************************
+*Node Depth Statistics Comparisons *
+************************************
+  Node ID                            Mean Sim   Mean Obs       RMSE        MAE      MSLSE    STD Sim    STD Obs Nash-Sutcliffe     Log NSE    Index d Agreee
+  30001                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000     0.0000
+  30002                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000     0.0000
+  30003                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000     0.0000
+  30004                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000     0.0000
+  30005                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000     0.0000
+  30006                                0.0197     0.0197     0.0000     0.0000     0.0000     0.0121     0.0121     1.0000     0.0000
+  30007                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000     0.0000
+  30081                                0.9976     0.9976     0.0001     0.0000     0.0000     0.0379     0.0379     1.0000     0.0000
+  30082                                1.1820     1.1820     0.0001     0.0001     0.0000     0.0584     0.0583     1.0000     0.0000
+  30083                                2.0000     2.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000     0.0000
+
+*******************************************
+*Node Lateral Flow Statistics Comparisons *
+*******************************************
+  Node ID                            Mean Sim   Mean Obs       RMSE        MAE      MSLSE    STD Sim    STD Obs Nash-Sutcliffe     Log NSE    Index d Agreee
+  30001                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30002                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30003                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30004                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30005                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30006                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30007                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30081                               20.0000    20.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30082                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30083                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+
+*****************************************
+*Node Total Flow Statistics Comparisons *
+*****************************************
+  Node ID                            Mean Sim   Mean Obs       RMSE        MAE      MSLSE    STD Sim    STD Obs Nash-Sutcliffe Nash-Sutcliffe Nash-Sutcliffe
+  30001                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30002                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30003                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30004                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30005                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30006                                0.0325     0.0322     0.0029     0.0023     0.0010     0.0344     0.0364     0.9953
+  30007                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30081                               20.0000    20.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  30082                               17.9369    17.9346     0.0028     0.0023     0.0009     1.8918     1.8930     1.0000
+  30083                               15.0577    15.0553     0.0025     0.0023     0.0008     1.9643     1.9638     1.0000
+
+************************************
+*Link Flow Statistics  Comparisons *
+************************************
+  Link ID                            Mean Sim   Mean Obs       RMSE        MAE      MSLSE    STD Sim    STD Obs Nash-Sutcliffe
+  10001                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  10002                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  10003                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  10004                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  10005                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  10006                               -0.0325    -0.0322     0.0029     0.0023     0.0010     0.0344     0.0364     0.9953
+  10007                                0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  10081                               17.9369    17.9346     0.0028     0.0023     0.0009     1.8918     1.8930     1.0000
+  10082                               15.0577    15.0553     0.0025     0.0023     0.0008     1.9643     1.9638     1.0000
+
+*************************************
+*Link Depth Statistics  Comparisons *
+*************************************
+  Link ID                            Mean Sim   Mean Obs       RMSE        MAE      MSLSE    STD Sim    STD Obs Nash-Sutcliffe
+  10001                                0.0001     0.0001     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  10002                                0.0001     0.0001     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  10003                                0.0099     0.0099     0.0000     0.0000     0.0000     0.0060     0.0060     1.0000
+  10004                                0.0001     0.0001     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  10005                                0.0001     0.0001     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  10006                                0.5087     0.5087     0.0000     0.0000     0.0000     0.0250     0.0250     1.0000
+  10007                                0.0001     0.0001     0.0000     0.0000     0.0000     0.0000     0.0000     1.0000
+  10081                                1.0898     1.0898     0.0001     0.0001     0.0000     0.0475     0.0475     1.0000
+  10082                                1.5910     1.5910     0.0000     0.0000     0.0000     0.0292     0.0292     1.0000

@@ -26,7 +26,6 @@ REPORT_STEP          00:15:00
 WET_STEP             00:15:00
 DRY_STEP             01:00:00
 ROUTING_STEP         0:00:20 
-RULE_STEP            00:00:00
 
 INERTIAL_DAMPING     NONE
 NORMAL_FLOW_LIMITED  BOTH
@@ -43,7 +42,6 @@ THREADS              1
 
 [FILES]
 ;;Interfacing Files
-SAVE Outflows/Calibration "Extran4.txt"
 
 [EVAPORATION]
 ;;Data Source    Parameters

@@ -42,7 +42,6 @@ THREADS              1
 
 [FILES]
 ;;Interfacing Files
-SAVE Outflows/Calibration "Extran3.txt"
 
 [EVAPORATION]
 ;;Data Source    Parameters
